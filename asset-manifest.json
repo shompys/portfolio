@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7cf3cff5.chunk.css",
+    "main.js": "/portfolio/static/js/main.033101d7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.033101d7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
+    "static/js/2.5bd429f3.chunk.js": "/portfolio/static/js/2.5bd429f3.chunk.js",
+    "static/js/2.5bd429f3.chunk.js.map": "/portfolio/static/js/2.5bd429f3.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.7cf3cff5.chunk.css.map": "/portfolio/static/css/main.7cf3cff5.chunk.css.map",
+    "static/js/2.5bd429f3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5bd429f3.chunk.js.LICENSE.txt",
+    "static/media/about-me.018bbe7e.svg": "/portfolio/static/media/about-me.018bbe7e.svg",
+    "static/media/code.fd990bab.svg": "/portfolio/static/media/code.fd990bab.svg",
+    "static/media/conocimiento.956454e7.svg": "/portfolio/static/media/conocimiento.956454e7.svg",
+    "static/media/contact.e747065b.svg": "/portfolio/static/media/contact.e747065b.svg",
+    "static/media/css3-alt-brands.81a64fbd.svg": "/portfolio/static/media/css3-alt-brands.81a64fbd.svg",
+    "static/media/database-solid.f489c9f8.svg": "/portfolio/static/media/database-solid.f489c9f8.svg",
+    "static/media/github.1e1f6991.svg": "/portfolio/static/media/github.1e1f6991.svg",
+    "static/media/home.fa65a591.svg": "/portfolio/static/media/home.fa65a591.svg",
+    "static/media/html5-brands.b0be280a.svg": "/portfolio/static/media/html5-brands.b0be280a.svg",
+    "static/media/human.628d4228.jpg": "/portfolio/static/media/human.628d4228.jpg",
+    "static/media/js-square-brands.fedf7539.svg": "/portfolio/static/media/js-square-brands.fedf7539.svg",
+    "static/media/linkedin.022923a2.svg": "/portfolio/static/media/linkedin.022923a2.svg",
+    "static/media/node-brands.7d9ce7f8.svg": "/portfolio/static/media/node-brands.7d9ce7f8.svg",
+    "static/media/npm-brands.972145a7.svg": "/portfolio/static/media/npm-brands.972145a7.svg",
+    "static/media/php-brands.b8779c19.svg": "/portfolio/static/media/php-brands.b8779c19.svg",
+    "static/media/react-brands.8f10abb0.svg": "/portfolio/static/media/react-brands.8f10abb0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9adcde90.js",
+    "static/js/2.5bd429f3.chunk.js",
+    "static/css/main.7cf3cff5.chunk.css",
+    "static/js/main.033101d7.chunk.js"
+  ]
+}
