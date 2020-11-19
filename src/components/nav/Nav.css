@@ -1,0 +1,102 @@
+header{
+    width: 100%;
+    background: var(--colorT-celeste);
+    position:fixed;
+    z-index: 1000;
+    
+}
+.nav{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--color-celeste);
+    opacity: 0;
+    visibility: hidden;
+    transition: ease 1s;
+    position: absolute;
+    right: -100%;
+    z-index: -1000;
+}
+
+.nav-options{
+    padding: 2vh 0 2vh 0;
+    display: flex;
+    align-items: center;
+}
+.nav-options img{
+    padding: 0px 25px 0px 35px;
+    
+}
+.span{
+    
+    font-size: 1.5em;
+    font-weight: 600;
+    /*line-height: normal;*/
+    color: var(--color-gris);
+}
+.span:hover{
+    transition: 0.2s ease;
+    cursor: pointer;
+    color: #fff;
+    text-shadow:     
+    0 0 5px rgba(0,178,255,1),
+    0 0 10px rgba(0,178,255,1),
+    0 0 20px rgba(0,178,255,1);
+    
+}
+.toggle{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    z-index: 1000;
+}
+
+/*--------------Creacion de la hamburguesa-----------------*/
+.toggle span, .toggle span:before, .toggle span:after{
+    display: block;
+    width: 45px;
+    height: 4.5px;
+    background-color: var(--color-gris);
+    position: absolute;
+    color: #fff;
+    transition: ease .5s;
+}
+.toggle span:before, .toggle span:after{
+    content: '';
+}
+
+.toggle span{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.toggle span:after{
+    bottom: 14px;
+}
+.toggle span:before{
+    top: 14px;
+}
+
+/*-------------------------------fin hamburguesa------------*/
+
+/*----------------javaScript--------------------*/
+.toggle.close span{
+    transform: rotate(45deg);
+}
+.toggle.close span:before{
+    top: 0px;
+    transform: rotate(90deg);
+}
+.toggle.close span:after{
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+    visibility: visible;
+    right: 0;
+}
+
+

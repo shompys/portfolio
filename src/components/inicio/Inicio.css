@@ -1,0 +1,53 @@
+.inicio{
+    height:100vh;
+    
+}
+.inicio-content{
+    min-width: 360px;
+    padding: 0 20px 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 210px;
+    padding-top: 130px;
+    
+    justify-items: center;
+    align-items: center;
+}
+
+.inicio-p{
+    grid-column: 1/3;
+    font-size: 1.4em;
+    color: var(--color-gris)
+    
+}
+
+.inicio-icons{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    
+}
+.i-linkedin > img, .i-github > img{
+    width:60px;
+}
+.i-linkedin{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.i-github{
+    grid-column:2/3;
+    grid-row: 2/3;
+}
+
+.inicio-img{
+    border-radius: 50%;
+    width: 210px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.border-grid{
+    border: 1px solid #000;
+}
