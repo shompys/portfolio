@@ -1,10 +1,27 @@
 import {v4 as genId} from 'uuid';
-
+import {useEffect, useState} from 'react';
 import svg from '../../assets/svg';
 import human from '../../assets/images/human.jpg';
 import './Inicio.css';
 
 const Inicio = () => {
+
+    const [width, setWidth] = useState(window.innerWidth);
+    const [height, setHeight] = useState(window.innerHeight);
+    
+    useEffect(() => {
+        
+        const viewport = () =>{
+            setWidth(window.innerWidth);
+            setHeight(window.innerHeight);
+        }
+        window.addEventListener('resize', viewport);
+        
+        
+
+    },[]);
+    
+    
 
     const data = [
         {
@@ -29,7 +46,7 @@ const Inicio = () => {
                 <p className="inicio-p">Hola, me llamo Jonathan 
                 y quiero ser desarrollador web.<br></br>
                 Front-end, back-end o full stack</p>
-                    
+                   
                 <div className="inicio-icons">
                     {
                         data.map((v) =>

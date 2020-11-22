@@ -9,31 +9,36 @@ const Nav = () =>{
             id: genId(),
             src: svg.home,
             alt: 'home',
-            item: 'Inicio'
+            item: 'Inicio',
+            className: ' nav-options fix-end'
         },
         {
             id: genId(),
             src: svg.about,
             alt: 'about me',
-            item: 'Sobre mí'
+            item: 'Sobre mí',
+            className: ' nav-options'
         },
         {
             id: genId(),
             src: svg.conocimiento,
             alt: 'conocimientos',
-            item: 'Conocimientos'
+            item: 'Conocimientos',
+            className: ' nav-options'
         },
         {
             id: genId(),
             src: svg.code,
             alt: 'code',
-            item: 'Proyectos'
+            item: 'Proyectos',
+            className: ' nav-options'
         },
         {
             id: genId(),
             src: svg.contact,
             alt: 'contact',
-            item: 'Contacto'
+            item: 'Contacto',
+            className: ' nav-options fix-start'
         }
     ]
     
@@ -54,7 +59,7 @@ const Nav = () =>{
             {
                 data.map((v) =>
 
-                    <div className="nav-options" key={v.id}><img src={v.src} alt={v.alt}/><span className="span">{v.item}</span></div>
+                    <div className={v.className} key={v.id}><img src={v.src} alt={v.alt}/><span className="span">{v.item}</span></div>
                 )
             }
             </nav>
