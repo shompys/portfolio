@@ -3,9 +3,9 @@ import './App.css';
 
 import Nav from './components/nav/Nav';
 import Inicio from './components/inicio/Inicio';
-import Yo from './components/yo/Yo';
 import Footer from './components/footer/Footer';
 import Conocimientos from './components/conocimientos/Conocimientos';
+import SobreMi from './components/sobreMi/SobreMi';
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
       <>
       <Nav />
       <Inicio/>
+      <SobreMi/>
       <Conocimientos/>
-      <Yo/>
       <Footer/>
       </>
     </div>

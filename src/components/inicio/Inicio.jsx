@@ -45,7 +45,7 @@ const Inicio = () => {
                 
                 <p className="inicio-p">Hola, me llamo Jonathan 
                 y quiero ser desarrollador web.<br></br>
-                Front-end, back-end o full stack</p>
+                Front-end, back-end o full stack.</p>
                    
                 <div className="inicio-icons">
                     {

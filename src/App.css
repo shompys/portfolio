@@ -8,7 +8,7 @@
   --colorT-gris: rgba(135, 135, 148, .3);
   --colorT-rojo: rgba(245, 5, 16, 1);
   --colorT-bordo: rgba(115, 6, 11, 1);
-  --colorT-celeste: rgba(52,  150,  175, 1);
+  --colorT-celeste: rgb(71, 192, 223);
 
   --color-blanco: #ffffff;
   --color-negro: #000000;
@@ -28,7 +28,10 @@
   text-decoration: none;
   list-style-type: none;
 }
-
+::selection {
+  color: var(--colorT-celeste);
+  text-shadow: 0px 0px 30px var(--colorT-celeste);
+}
 
 .App{
   position: relative;

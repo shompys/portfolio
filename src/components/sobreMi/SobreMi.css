@@ -1,0 +1,32 @@
+.sobreMi-section{
+    padding-top: 11.7em;
+}
+.sobreMi-section > h1 {
+    margin: 0 0 50px 0;
+    text-align: center;
+    color: var(--color-gris);
+    
+}
+.sobreMi-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    min-width: 360px;
+    padding: 0 20px 0 20px;
+    row-gap: 1em;
+}
+@media screen and (min-width: 768px){
+    .sobreMi-content{
+    grid-template-columns: repeat(2, 1fr);
+    column-gap:1em;
+    }
+}
+@media screen and (min-width: 1024px){
+    .sobreMi-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 1400px){
+    .sobreMi-content{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

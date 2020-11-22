@@ -87,9 +87,11 @@ header{
 /*----------------javaScript--------------------*/
 .toggle.close span{
     transform: rotate(45deg);
+    width: 30px;
 }
 .toggle.close span:before{
     top: 0px;
+    width:30px;
     transform: rotate(90deg);
 }
 .toggle.close span:after{
