@@ -58,7 +58,7 @@ const Conocimientos = () => {
     ]
     
     return(
-        <section className="conocimientos">
+        <section className="conocimientos-section">
             <h1>Conocimientos</h1>
             <div className="conocimientos-content">
             {

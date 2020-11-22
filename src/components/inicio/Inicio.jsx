@@ -1,5 +1,5 @@
 import {v4 as genId} from 'uuid';
-import {useEffect, useState} from 'react';
+//import {useEffect, useState} from 'react';
 import svg from '../../assets/svg';
 import human from '../../assets/images/human.jpg';
 import './Inicio.css';
