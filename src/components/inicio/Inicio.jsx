@@ -5,7 +5,7 @@ import human from '../../assets/images/human.jpg';
 import './Inicio.css';
 
 const Inicio = () => {
-
+/*
     const [width, setWidth] = useState(window.innerWidth);
     const [height, setHeight] = useState(window.innerHeight);
     
@@ -20,7 +20,7 @@ const Inicio = () => {
         
 
     },[]);
-    
+*/  
     
 
     const data = [
@@ -40,7 +40,7 @@ const Inicio = () => {
         }
     ]
     return(
-        <section className="inicio">
+        <section className="inicio-section">
             <div className="inicio-content">
                 
                 <p className="inicio-p">Hola, me llamo Jonathan 
