@@ -10,7 +10,7 @@
     
 }
 .inicio-content{
-    
+    opacity: 0;
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 5em;
@@ -20,7 +20,7 @@
 .inicio-p{
     justify-self: center;
     font-size: 1.4em;
-    color: var(--color-gris)
+    color: var(--color-gris);
     
 }
 
@@ -35,7 +35,7 @@
     
     width: 60px;
     transition: all 0.5s ease;
-
+    
     
 }
 .i-linkedin > img:hover{
@@ -66,7 +66,10 @@
     justify-self: center;
 
 }
-
+.opacity1{
+    opacity: 1;
+    transition: opacity 2s ease;
+}
 /**********keyframes!!*********/
 
 @keyframes move{

@@ -1,4 +1,6 @@
+import React from 'react';
 import {v4 as genId } from 'uuid';
+import {Link, animateScroll as scroll} from 'react-scroll';
 import './Nav.css';
 import svg from '../../assets/svg';
 
@@ -11,6 +13,7 @@ const Nav = () =>{
             alt: 'home',
             item: 'Inicio',
             className: ' nav-options fix-end'
+            
         },
         {
             id: genId(),
@@ -41,25 +44,41 @@ const Nav = () =>{
             className: ' nav-options fix-start'
         }
     ]
+
+    const [toggleOpen, setToggleOpen] = React.useState({status: false, class: ''});
+    const [navOpen, setNavOpen] = React.useState({status: false, class: ''});
     
+
     const deploy = () =>{
-
-        document.querySelector('.toggle').classList.toggle('close')
-        document.querySelector('.nav').classList.toggle('show')
-                                               
+        setToggleOpen(toggleOpen.status ? {...toggleOpen, status: !toggleOpen.status, class: ''} : {...toggleOpen, status: !toggleOpen.status, class: 'close'});
+        setNavOpen(navOpen.status ? {...navOpen, status: !navOpen.status, class: ''} : {...navOpen, status: !navOpen.status, class: 'show'});       
     }
-
+    /*const scrolltop = () => scroll.scrollToTop();*/
+        
+    
     return (
         
         <header>
-            <div className="toggle" onClick = {deploy}>
+            <div className={`toggle ${toggleOpen.class}`} onClick = {deploy}>
                 <span></span>
             </div>
-            <nav className="nav">
+            <nav className={`nav ${navOpen.class}`}>
             {
                 data.map((v) =>
 
-                    <div className={v.className} key={v.id}><img src={v.src} alt={v.alt}/><span className="span">{v.item}</span></div>
+                    <div className={v.className} key={v.id}>
+                        <img src={v.src} alt={v.alt}/>
+                        <Link className="span"
+                        onClick={deploy}
+                        activeClass="active"
+                        to={v.item}
+                        spy={true}
+                        smooth={true} 
+                        offset={v.item  === 'Inicio' ? 0 : 120}
+                        duration={2500}
+                        >{v.item}</Link>
+                    </div>
+                    
                 )
             }
             </nav>

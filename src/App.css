@@ -33,9 +33,39 @@
   text-shadow: 0px 0px 30px var(--colorT-celeste);
 }
 
+
 .App{
   position: relative;
 }
+
+/*
+  styles de helpers
+   mejorar a futuro faltan buenas practicas:
+*/
+
+.effectScroll{
+  opacity: 0;
+  
+  transition: opacity ease 2s;
+}
+
+.show-effect{
+  
+  animation: show-effect ease 1s;
+  
+}
+@keyframes show-effect{
+  0%{
+    
+    transform: translateY(50px);
+  }
+  100%{
+    
+    transform: translateY(0);
+  }
+}
+
+
 @media screen and (min-width: 768px){
   
 }

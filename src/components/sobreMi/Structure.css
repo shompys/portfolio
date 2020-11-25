@@ -1,9 +1,13 @@
-.yo-section{
-    
+.structure-content{
+    max-width: 360px;
+    text-align: center;
 }
-.yo-h3{
-
+.structure-h3{
+    color: var(--color-gris);
+    padding-bottom: 1em;
+    border-bottom: 1px solid var(--color-gris)
 }
-.yo-p{
-
+.structure-p{
+padding-top: 1em;
+color: var(--color-gris);
 }

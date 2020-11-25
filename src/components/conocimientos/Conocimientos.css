@@ -1,5 +1,6 @@
 .conocimientos-section{
     padding-top: 11.7em;
+    min-width: 360px;
 }
 .conocimientos-section > h1 {
     margin: 0 0 50px 0;
@@ -9,7 +10,6 @@
 }
 .conocimientos-content{
     
-    min-width: 360px;
     padding: 0 20px 0 20px;
     display: grid;
     grid-template-columns: 1fr;

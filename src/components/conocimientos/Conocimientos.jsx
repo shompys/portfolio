@@ -58,8 +58,8 @@ const Conocimientos = () => {
     ]
     
     return(
-        <section className="conocimientos-section">
-            <h1>Conocimientos</h1>
+        <section id="Conocimientos" className="conocimientos-section">
+            <h1 className="effectScroll">Conocimientos</h1>
             <div className="conocimientos-content">
             {
                 tools.map((v) => <Item key={v.id} src={v.src} alt={v.alt} name={v.name}/>)

@@ -1,5 +1,7 @@
 .sobreMi-section{
     padding-top: 11.7em;
+    padding: 11.7em 20px 0 20px;
+    min-width: 360px;
 }
 .sobreMi-section > h1 {
     margin: 0 0 50px 0;
@@ -10,10 +12,10 @@
 .sobreMi-content{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    min-width: 360px;
-    padding: 0 20px 0 20px;
-    row-gap: 1em;
+    justify-items: center;
+    row-gap: 6em;
 }
+
 @media screen and (min-width: 768px){
     .sobreMi-content{
     grid-template-columns: repeat(2, 1fr);

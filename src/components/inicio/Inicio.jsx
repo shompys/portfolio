@@ -3,25 +3,15 @@ import {v4 as genId} from 'uuid';
 import svg from '../../assets/svg';
 import human from '../../assets/images/human.jpg';
 import './Inicio.css';
+import { useEffect } from 'react';
 
 const Inicio = () => {
-/*
-    const [width, setWidth] = useState(window.innerWidth);
-    const [height, setHeight] = useState(window.innerHeight);
     
-    useEffect(() => {
-        
-        const viewport = () =>{
-            setWidth(window.innerWidth);
-            setHeight(window.innerHeight);
-        }
-        window.addEventListener('resize', viewport);
-        
-        
-
-    },[]);
-*/  
+    useEffect(()=>{
     
+        document.querySelector('.inicio-content').classList.add('opacity1');
+        
+    })
 
     const data = [
         {
@@ -40,8 +30,8 @@ const Inicio = () => {
         }
     ]
     return(
-        <section className="inicio-section">
-            <div className="inicio-content">
+        <section id="Inicio" className="inicio-section">
+            <div  className="inicio-content">
                 
                 <p className="inicio-p">Hola, me llamo Jonathan 
                 y quiero ser desarrollador web.<br></br>
