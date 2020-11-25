@@ -18,7 +18,7 @@ const SobreMi = ()=>{
         {
             id: genId(),
             title: '¿De donde soy?',
-            info1: 'Vivo en Argentina, Ciudad Autonoma de Buenos Aires.'
+            info1: 'Vivo en Argentina, Ciudad Autónoma de Buenos Aires.'
         },
         {
             id: genId(),

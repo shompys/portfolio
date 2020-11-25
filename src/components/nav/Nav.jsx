@@ -1,6 +1,6 @@
 import React from 'react';
 import {v4 as genId } from 'uuid';
-import {Link, animateScroll as scroll} from 'react-scroll';
+import {Link} from 'react-scroll';
 import './Nav.css';
 import svg from '../../assets/svg';
 
@@ -45,24 +45,24 @@ const Nav = () =>{
         }
     ]
 
-    const [toggleOpen, setToggleOpen] = React.useState({status: false, class: ''});
-    const [navOpen, setNavOpen] = React.useState({status: false, class: ''});
-    
+    const [toggleOpen, setToggleOpen] = React.useState(false);
+    const [navOpen, setNavOpen] = React.useState(false);
 
-    const deploy = () =>{
-        setToggleOpen(toggleOpen.status ? {...toggleOpen, status: !toggleOpen.status, class: ''} : {...toggleOpen, status: !toggleOpen.status, class: 'close'});
-        setNavOpen(navOpen.status ? {...navOpen, status: !navOpen.status, class: ''} : {...navOpen, status: !navOpen.status, class: 'show'});       
+    const deploy = () => {
+        console.log('botoncito')
+        setToggleOpen(toggleOpen ? !toggleOpen : !toggleOpen);
+        setNavOpen(navOpen ? !navOpen : !navOpen);
+
     }
-    /*const scrolltop = () => scroll.scrollToTop();*/
-        
+    
     
     return (
         
         <header>
-            <div className={`toggle ${toggleOpen.class}`} onClick = {deploy}>
+            <div className={`toggle ${toggleOpen ? 'close' : ''}`} onClick = {deploy}>
                 <span></span>
             </div>
-            <nav className={`nav ${navOpen.class}`}>
+            <nav className={`nav ${navOpen ? 'show' : ''}`}>
             {
                 data.map((v) =>
 
