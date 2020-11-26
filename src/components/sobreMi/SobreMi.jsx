@@ -12,8 +12,13 @@ const SobreMi = ()=>{
         },
         {
             id: genId(),
-            title: 'Futuro Licenciado en Gestión de Tecnología.',
-            info1: 'Continuaré mis estudios en la sede de la Universidad Nacional de la Matanza.'
+            title: 'Estudios',
+            info1: 'Continuaré mis estudios en la sede de la Universidad Nacional de la Matanza, para la licenciatura de gestión de la tecnología.'
+        },
+        {
+            id: genId(),
+            title: 'Curso en UTN',
+            info1: 'Presencial, con certificado titulado Professional WebMaster, con una carga horaria de 144hs.'
         },
         {
             id: genId(),
@@ -22,9 +27,10 @@ const SobreMi = ()=>{
         },
         {
             id: genId(),
-            title: '¿A que me dedico?',
-            info1: 'Actualmente trabajo en una clinica en la parte administrativa.'
-        },
+            title: '¿A qué me dedico?',
+            info1: 'Trabajo en una clínica, en el sector administrativo.'
+        }
+
     ]
 
     return(

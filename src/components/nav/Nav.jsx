@@ -75,7 +75,7 @@ const Nav = () =>{
                         spy={true}
                         smooth={true} 
                         offset={v.item  === 'Inicio' ? 0 : 120}
-                        duration={2500}
+                        duration={700}
                         >{v.item}</Link>
                     </div>
                     
