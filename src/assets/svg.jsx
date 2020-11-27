@@ -13,6 +13,7 @@ import php from './svg/php-brands.svg';
 import database from './svg/database-solid.svg';
 import react from './svg/react-brands.svg';
 import npm from './svg/npm-brands.svg';
+import git from './svg/git-alt-brands.svg';
 
 const svg = {
         home: home,
@@ -29,7 +30,8 @@ const svg = {
         php: php,
         database: database,
         react: react,
-        npm: npm
+        npm: npm,
+        git: git
     }
 
 export default svg;

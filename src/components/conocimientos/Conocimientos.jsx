@@ -53,6 +53,12 @@ const Conocimientos = () => {
             src: svg.database,
             alt: 'database',
             name: 'MYSQL'
+        },
+        {
+            id: genId(),
+            src: svg.git,
+            alt: 'git',
+            name: 'GIT'
         }
         
     ]
