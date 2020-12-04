@@ -49,7 +49,7 @@ const Nav = () =>{
     const [navOpen, setNavOpen] = React.useState(false);
 
     const deploy = () => {
-        console.log('botoncito')
+        
         setToggleOpen(toggleOpen ? !toggleOpen : !toggleOpen);
         setNavOpen(navOpen ? !navOpen : !navOpen);
 
