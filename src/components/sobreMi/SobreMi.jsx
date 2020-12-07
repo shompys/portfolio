@@ -13,7 +13,7 @@ const SobreMi = ()=>{
         {
             id: genId(),
             title: 'Estudios',
-            info1: 'Continuaré mis estudios en la sede de la Universidad Nacional de la Matanza, para la licenciatura de gestión de la tecnología.'
+            info1: 'Continuaré mis estudios en la sede de la Universidad Nacional de la Matanza, para la Licenciatura de Gestión de la Tecnología.'
         },
         {
             id: genId(),
@@ -23,7 +23,7 @@ const SobreMi = ()=>{
         {
             id: genId(),
             title: '¿De donde soy?',
-            info1: 'Vivo en Argentina, Ciudad Autónoma de Buenos Aires.'
+            info1: 'Vivo en la Ciudad Autónoma de Buenos Aires, Argentina.'
         },
         {
             id: genId(),

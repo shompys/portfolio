@@ -14,6 +14,7 @@ import database from './svg/database-solid.svg';
 import react from './svg/react-brands.svg';
 import npm from './svg/npm-brands.svg';
 import git from './svg/git-alt-brands.svg';
+import link from './svg/link-external.svg';
 
 const svg = {
         home: home,
@@ -31,7 +32,8 @@ const svg = {
         database: database,
         react: react,
         npm: npm,
-        git: git
+        git: git,
+        link : link
     }
 
 export default svg;
