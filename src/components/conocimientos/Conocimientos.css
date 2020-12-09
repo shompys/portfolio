@@ -23,6 +23,7 @@
 }
 @media screen and (min-width: 1024px){
     .conocimientos-content{
+        margin-top:11.7em;
         grid-template-columns: repeat(2,1fr);
         column-gap: 1.1em;
     }
