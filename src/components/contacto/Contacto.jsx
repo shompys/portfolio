@@ -9,7 +9,7 @@ const Contacto = () =>{
     
     const [name, setName] = React.useState('');
     const [email, setEmail] = React.useState('');
-    const [tel, setTel] = React.useState('');
+    //const [tel, setTel] = React.useState('');
     const [asunto, setAsunto] = React.useState('');
     const [msg, setMsg] = React.useState('');
     const [error, setError] = React.useState(null);
@@ -20,7 +20,7 @@ const Contacto = () =>{
         if(value !== null){
             
             console.log("Pinchaste el reCAPTCHA mirando la consola, ah eres listo muchacho/a!")
-            setError(null)
+            /*setError(null)*/
         }
     }
         
@@ -28,23 +28,20 @@ const Contacto = () =>{
         e.preventDefault();
         
         if(!name.trim()){
-            setError('Todos los campos son obligatorios')
+            setError('El campo "Nombre" no puede quedar vacio.')
             return
         }
         if(!email.trim()){
-            setError('Todos los campos son obligatorios')
+            setError('El campo "Email" no puede quedar vacio.')
             return
         }
-        if(!tel.trim()){
-            setError('Todos los campos son obligatorios')
-            return
-        }
+
         if(!asunto.trim()){
-            setError('Todos los campos son obligatorios')
+            setError('El campo "Asunto" no puede quedar vacio.')
             return
         }
         if(!msg.trim()){
-            setError('Todos los campos son obligatorios')
+            setError('El campo "Mensaje" no puede quedar vacio.')
             return
         }
         /*
@@ -65,11 +62,13 @@ const Contacto = () =>{
             
             console.log(result.text);
             setSend(true)
+            setTimeout(()=>{
+                setSend(false);
+            },8000)
             //limpiamos estados y campo
-            e.target.reset() //el e.target me trae el formulario
+            e.target.reset() 
             setName('')
             setEmail('')
-            setTel('')
             setAsunto('')
             setMsg('')
 
@@ -92,18 +91,17 @@ const Contacto = () =>{
             
                 
             <div className="Contacto-content effectScroll">
-                <p className="contacto-p">Tenes alguna pregunta, tenes algún consejo de mejora o tenes alguna propuesta podes mandarme un mail aquí.</p>
-
-                {send ? (<h2>Su mensaje se ha enviado con exito!</h2>):
-                
-                (
-
+                <div className="content-p-contacto">
+                    <p className="contacto-p">Si tenes alguna pregunta, consejo de mejora o propuesta, podes mandarme un mail a <span>jonathangomezit@gmail.com</span>.</p>
+                    <p className="contacto-p">Claro que también podes enviármelo por este formulario super divertido:</p>
+                    <p className="contacto-p">Los campos obligatorios estan marcados con un (*).</p>
+                </div>
                 <form className="form-contacto " onSubmit={process}>
-                    <input className="input input-name" type="text" placeholder="Nombre" name="name" autoComplete="off" onChange={e => setName(e.target.value)}/>
-                    <input className="input input-email" type="text" placeholder="Email" name="email" autoComplete="off" onChange={e => setEmail(e.target.value)}/>
-                    <input className="input input-tel" type="text" placeholder="Teléfono o Celular" autoComplete="off" name="tel" onChange={e => setTel(e.target.value)}/>
-                    <input className="input input-asunto" type="text" placeholder="Asunto" name="asunto" autoComplete="off" onChange={e => setAsunto(e.target.value)}/>
-                    <textarea className="input textarea" type="textarea" placeholder="Mensaje" name="msg" onChange={e => setMsg(e.target.value)}/>
+                    <input className="input input-name" type="text" placeholder="Nombre *" name="name" autoComplete="off" onChange={e => setName(e.target.value)}/>
+                    <input className="input input-email" type="text" placeholder="Email *" name="email" autoComplete="off" onChange={e => setEmail(e.target.value)}/>
+                    <input className="input input-tel" type="text" placeholder="Teléfono o Celular" autoComplete="off" name="tel"/>
+                    <input className="input input-asunto" type="text" placeholder="Asunto *" name="asunto" autoComplete="off" onChange={e => setAsunto(e.target.value)}/>
+                    <textarea className="input textarea" type="textarea" placeholder="Mensaje *" name="msg" onChange={e => setMsg(e.target.value)}/>
 
                     <ReCAPTCHA
                         className="recaptcha"
@@ -113,9 +111,14 @@ const Contacto = () =>{
 
                     {error ? <p className="contacto-error">{error}</p> : null}
 
-                    <button className="button-contacto" type="submit">Enviar</button>
+                    {
+                    send ? (<p className="p-contacto-sucess">Su mensaje se ha enviado con exito!</p>)
+                    :
+                    (<button className="button-contacto" type="submit">Enviar</button>)
+                    }    
+                    
                 </form>
-                )}
+                        
             </div>
         </section>
     )
