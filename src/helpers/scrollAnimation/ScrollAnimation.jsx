@@ -1,9 +1,6 @@
-import {useEffect} from 'react';
-
+import React from 'react'
 const ScrollAnimation = () => {
     
-    useEffect(()=>{
-
         const handleScroll = () => {
 
             const divs = document.querySelectorAll('.effectScroll');
@@ -20,8 +17,10 @@ const ScrollAnimation = () => {
         }
 
     window.addEventListener('scroll', handleScroll)
-    
-    })//use effect
+
+    return(
+        <></>
+    )
 }
 
 export default ScrollAnimation;
