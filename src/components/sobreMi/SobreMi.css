@@ -21,15 +21,18 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap:1em;
     }
+    
 }
 @media screen and (min-width: 1024px){
     .sobreMi-content{
         margin-top:11.7em;
         grid-template-columns: repeat(3, 1fr);
     }
+    
 }
 @media screen and (min-width: 1400px){
     .sobreMi-content{
         grid-template-columns: repeat(4, 1fr);
     }
+    
 }
