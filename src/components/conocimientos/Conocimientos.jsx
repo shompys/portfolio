@@ -38,6 +38,12 @@ const Conocimientos = () => {
         },
         {
             id: genId(),
+            src: svg.node,
+            alt: 'express',
+            name: 'EXPRESS'
+        },
+        {
+            id: genId(),
             src: svg.react,
             alt: 'react',
             name: 'REACT'
