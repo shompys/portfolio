@@ -44,6 +44,12 @@ const Conocimientos = () => {
         },
         {
             id: genId(),
+            src: svg.database,
+            alt: 'mongo',
+            name: 'MONGODB'
+        },
+        {
+            id: genId(),
             src: svg.react,
             alt: 'react',
             name: 'REACT'

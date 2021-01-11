@@ -16,7 +16,6 @@ import npm from './svg/npm-brands.svg';
 import git from './svg/git-alt-brands.svg';
 import link from './svg/link-external.svg';
 
-
 const svg = {
         home: home,
         about: about,
