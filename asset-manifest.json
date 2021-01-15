@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b40c0c7d.chunk.css",
-    "main.js": "/portfolio/static/js/main.4977f1e2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.4977f1e2.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.beab65c5.chunk.css",
+    "main.js": "/portfolio/static/js/main.d2c600fe.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d2c600fe.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.1e56da75.chunk.js": "/portfolio/static/js/2.1e56da75.chunk.js",
     "static/js/2.1e56da75.chunk.js.map": "/portfolio/static/js/2.1e56da75.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.b40c0c7d.chunk.css.map": "/portfolio/static/css/main.b40c0c7d.chunk.css.map",
+    "static/css/main.beab65c5.chunk.css.map": "/portfolio/static/css/main.beab65c5.chunk.css.map",
     "static/js/2.1e56da75.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1e56da75.chunk.js.LICENSE.txt",
     "static/media/about-me.018bbe7e.svg": "/portfolio/static/media/about-me.018bbe7e.svg",
     "static/media/code.fd990bab.svg": "/portfolio/static/media/code.fd990bab.svg",
@@ -16,12 +16,14 @@
     "static/media/contact.e747065b.svg": "/portfolio/static/media/contact.e747065b.svg",
     "static/media/css3-alt-brands.81a64fbd.svg": "/portfolio/static/media/css3-alt-brands.81a64fbd.svg",
     "static/media/database-solid.f489c9f8.svg": "/portfolio/static/media/database-solid.f489c9f8.svg",
+    "static/media/emails.6d57507a.png": "/portfolio/static/media/emails.6d57507a.png",
     "static/media/git-alt-brands.bddb729b.svg": "/portfolio/static/media/git-alt-brands.bddb729b.svg",
     "static/media/github.1e1f6991.svg": "/portfolio/static/media/github.1e1f6991.svg",
     "static/media/home.fa65a591.svg": "/portfolio/static/media/home.fa65a591.svg",
     "static/media/html5-brands.b0be280a.svg": "/portfolio/static/media/html5-brands.b0be280a.svg",
     "static/media/human.628d4228.jpg": "/portfolio/static/media/human.628d4228.jpg",
     "static/media/js-square-brands.0b698ca5.svg": "/portfolio/static/media/js-square-brands.0b698ca5.svg",
+    "static/media/keyboard.03524938.jpg": "/portfolio/static/media/keyboard.03524938.jpg",
     "static/media/link-external.1189d500.svg": "/portfolio/static/media/link-external.1189d500.svg",
     "static/media/linkedin.022923a2.svg": "/portfolio/static/media/linkedin.022923a2.svg",
     "static/media/node-brands.3932d2ea.svg": "/portfolio/static/media/node-brands.3932d2ea.svg",
@@ -34,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.1e56da75.chunk.js",
-    "static/css/main.b40c0c7d.chunk.css",
-    "static/js/main.4977f1e2.chunk.js"
+    "static/css/main.beab65c5.chunk.css",
+    "static/js/main.d2c600fe.chunk.js"
   ]
 }
