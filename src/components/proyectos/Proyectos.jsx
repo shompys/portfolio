@@ -4,6 +4,7 @@ import {v4 as genId} from 'uuid';
 import Structure from './Structure'
 import starfleet from '../../assets/images/starfleet.png'
 import portfolio from '../../assets/images/portfolio.png'
+import apirest from '../../assets/images/keyboard.jpg'
 
 const Proyectos = () => {
 
@@ -21,7 +22,7 @@ const Proyectos = () => {
         },
         {
             id: genId(),
-            title: 'PORTFOLIO EN REACT',
+            title: 'PORTFOLIO',
             img: portfolio,
             alt: 'portada de sitio portfolio',
             info1: 'Mi portfolio personal, creado para mostrar habilidades, y un historial de futuros proyectos.',
@@ -29,6 +30,16 @@ const Proyectos = () => {
             linkSite: 'https://shompys.github.io/portfolio/',
             linkGitHub: 'https://github.com/shompys/portfolio'
 
+        },
+        {
+            id: genId(),
+            title: 'API REST',
+            img: apirest,
+            alt: 'laptop',
+            info1: 'Proyecto personal aplicando integraciones con apis externas aún no se encuentra en producción.',
+            info2: 'Tecnologías: Express, MongoDB, JWT, sintaxis de ecmascript 6 compilado con Babel',
+            linkSite: 'https://github.com/shompys/app-twitch-backend',
+            linkGitHub: 'https://github.com/shompys/app-twitch-backend'
         }
     ]
 

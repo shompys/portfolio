@@ -18,9 +18,9 @@ function App() {
       <ScrollAnimation/>
       <Nav />
       <Inicio/>
-      <SobreMi/>
-      <Conocimientos/>
       <Proyectos/>
+      <Conocimientos/>
+      <SobreMi/>
       <Contacto/>
       <Footer/>
       

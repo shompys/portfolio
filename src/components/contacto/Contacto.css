@@ -1,8 +1,9 @@
+
 .Contacto-section{
     padding-top: 11.7em;
     min-width: 360px;
+    
 }
-
 .Contacto-section > h1{
     margin: 0 0 50px 0;
     text-align: center;
@@ -10,11 +11,11 @@
 }
 
 .Contacto-content{
-    padding: 0px 20px 0px 20px;
+    padding: 0 1.5rem;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 2em;
-
+    
 }
 .contacto-p{
     font-size: .9em;
@@ -24,6 +25,7 @@
     font-size: 1.1em;
     color: var(--colorT-celeste);
 }
+
 .form-contacto{
     display: grid;
     gap: 30px;
@@ -85,7 +87,7 @@
 
 @media screen and (min-width: 768px){
     .Contacto-content{
-        padding: 0px 10em 0px 10em;
+        padding: 0 8rem;
     }
     .form-contacto{
         grid-template-columns: repeat(2,1fr);
@@ -116,6 +118,7 @@
 @media screen and (min-width: 1024px){
     .Contacto-content{
         margin-top: 11.7em;
+        padding: 0 15rem;
     }
     .form-contacto{
         grid-template-columns: repeat(3,1fr);
@@ -145,5 +148,16 @@
 
 }
 @media screen and (min-width: 1200px){
+    .Contacto-content{
+        padding: 0 20rem;
+        
+    }
+    
+}
+@media screen and (min-width: 1400px){
+    .Contacto-content{
+        padding: 0 30rem;
+        
+    }
     
 }

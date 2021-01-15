@@ -17,9 +17,9 @@ const Nav = () =>{
         },
         {
             id: genId(),
-            src: svg.about,
-            alt: 'about me',
-            item: 'Sobre mí',
+            src: svg.code,
+            alt: 'code',
+            item: 'Proyectos',
             className: ' nav-options'
         },
         {
@@ -31,9 +31,9 @@ const Nav = () =>{
         },
         {
             id: genId(),
-            src: svg.code,
-            alt: 'code',
-            item: 'Proyectos',
+            src: svg.about,
+            alt: 'about me',
+            item: 'Sobre mí',
             className: ' nav-options'
         },
         {

@@ -2,6 +2,7 @@ import React from 'react';
 import './Contacto.css';
 import emailjs from 'emailjs-com';
 import ReCAPTCHA from "react-google-recaptcha";
+import emails from '../../assets/images/emails.png';
 
 const {REACT_APP_EMAILJS_USER_ID, REACT_APP_RECAPTCHA_SITE_KEY} = process.env;
 
@@ -87,15 +88,16 @@ const Contacto = () =>{
     
     return(
         <section id="Contacto" className="Contacto-section">
+            
             <h1 className="effectScroll">Contacto</h1>
             
-                
             <div className="Contacto-content effectScroll">
                 <div className="content-p-contacto">
                     <p className="contacto-p">Si tenes alguna pregunta, consejo de mejora o propuesta, podes mandarme un mail a <span>jonathangomezit@gmail.com</span>.</p>
                     <p className="contacto-p">Claro que también podes enviármelo por este formulario super divertido:</p>
                     <p className="contacto-p">Los campos obligatorios estan marcados con un (*).</p>
                 </div>
+                
                 <form className="form-contacto " onSubmit={process}>
                     <input className="input input-name" type="text" placeholder="Nombre *" name="name" autoComplete="off" onChange={e => setName(e.target.value)}/>
                     <input className="input input-email" type="text" placeholder="Email *" name="email" autoComplete="off" onChange={e => setEmail(e.target.value)}/>

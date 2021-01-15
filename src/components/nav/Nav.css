@@ -133,7 +133,6 @@ header{
     .nav-options{
         justify-content: center;
         
-        
     }
     .fix-end{
         justify-self: end;
@@ -165,7 +164,7 @@ header{
 @media screen and (min-width: 1400px){
 
     header{
-         width: 80%;
+         /* width: 80%; */
     }
 
 }
