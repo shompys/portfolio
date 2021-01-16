@@ -2,7 +2,7 @@ import React from 'react';
 import './Contacto.css';
 import emailjs from 'emailjs-com';
 import ReCAPTCHA from "react-google-recaptcha";
-import emails from '../../assets/images/emails.png';
+// import emails from '../../assets/images/emails.png';
 
 const {REACT_APP_EMAILJS_USER_ID, REACT_APP_RECAPTCHA_SITE_KEY} = process.env;
 

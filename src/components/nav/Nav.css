@@ -7,7 +7,8 @@ header{
 .nav{
     width: 100%;
     height: 100%;
-    background: var(--color-celeste);
+    /* var(--colorT-celeste),rgb(221,236,255) */
+    background: rgba(221, 236, 255, .95);
     opacity: 0;
     visibility: hidden;
     transition: all ease 1s;
@@ -102,6 +103,7 @@ header{
     opacity: 1;
     visibility: visible;
     transform: translateX(0);
+    
 }
 
 @media screen and (min-width: 768px){
@@ -110,10 +112,10 @@ header{
         box-shadow: 0px 0px 6px var(--color-gris);
         /* width: 90%; */
         /* top: 20px; */
-        padding: .8rem;
-        left: 0;
+        /* padding: .8rem; */
+        /* left: 0;
         right: 0;
-        margin: auto;
+        margin: auto; */
         
     }
     .toggle{
@@ -125,24 +127,20 @@ header{
         visibility: visible;
         transform: translateX(0);
         position: static;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         
         grid-auto-rows: auto;
     }
 
     .nav-options{
-        justify-content: center;
-        
-    }
-    .fix-end{
-        justify-self: end;
-    }
-    .fix-start{
-        justify-self: start;
+        /* justify-content: stretch; */
+        text-align: center;
     }
     
     .span{
         font-size: 1.2em;
+        padding: .5em;
+        width: 100%;
     }
     .span:hover{
         position: relative;

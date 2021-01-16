@@ -5,7 +5,6 @@ import Nav from './components/nav/Nav';
 import Inicio from './components/inicio/Inicio';
 import Footer from './components/footer/Footer';
 import Conocimientos from './components/conocimientos/Conocimientos';
-import SobreMi from './components/sobreMi/SobreMi';
 import Proyectos from './components/proyectos/Proyectos';
 import Contacto from './components/contacto/Contacto';
 import ScrollAnimation from './helpers/scrollAnimation/ScrollAnimation.jsx';
@@ -20,7 +19,6 @@ function App() {
       <Inicio/>
       <Proyectos/>
       <Conocimientos/>
-      <SobreMi/>
       <Contacto/>
       <Footer/>
       

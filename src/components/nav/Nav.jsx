@@ -12,7 +12,7 @@ const Nav = () =>{
             src: svg.home,
             alt: 'home',
             item: 'Inicio',
-            className: ' nav-options fix-end'
+            className: ' nav-options'
             
         },
         {
@@ -29,19 +29,19 @@ const Nav = () =>{
             item: 'Conocimientos',
             className: ' nav-options'
         },
-        {
-            id: genId(),
-            src: svg.about,
-            alt: 'about me',
-            item: 'Sobre mí',
-            className: ' nav-options'
-        },
+        // {
+        //     id: genId(),
+        //     src: svg.about,
+        //     alt: 'about me',
+        //     item: 'Sobre mí',
+        //     className: ' nav-options'
+        // },
         {
             id: genId(),
             src: svg.contact,
             alt: 'contact',
             item: 'Contacto',
-            className: ' nav-options fix-start'
+            className: ' nav-options'
         }
     ]
 

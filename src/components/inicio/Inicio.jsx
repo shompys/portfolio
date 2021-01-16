@@ -33,9 +33,9 @@ const Inicio = () => {
         <section id="Inicio" className="inicio-section">
             <div  className="inicio-content">
                 
-                <p className="inicio-p">Hola mi nombre es Jonathan.<br/>
+                <p className="inicio-p">Hola, mi nombre es Jonathan.<br/>
                 Soy desarrollador web FullStack<br/>
-                 con el conjunto de tecnologias M.E.R.N.</p>
+                 con el conjunto de tecnologías M.E.R.N.</p>
                 
                 
                 <div className="inicio-icons">
