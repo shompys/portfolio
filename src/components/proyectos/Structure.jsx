@@ -12,10 +12,11 @@ const Structure = ({title, img, alt, info1, info2, linkSite, linkGithub}) => {
             <img className="img-proyectos" src={img} alt={alt}/>
             
             <p className="proyecto-info1">{info1}</p>
-            <p className="proyecto-info2">{info2}</p>
+            {info2 && <p className="proyecto-info2">{info2}</p>}
             
             <div className="content-links-proyectos">
-                <a className="proyectos-set proyectos_link_site" target="_blank" rel="noreferrer" href={linkSite}>Entrar al sitio 
+                
+                <a className="proyectos-set proyectos_link_site" target="_blank" rel="noreferrer" href={linkSite}>{linkSite ?'Entrar al sitio': 'En construcción'} 
                     <img src={svg.link} alt="icon-link"/>
                 </a>
                 <a className="proyectos-set proyectos_link_code" target="_blank" rel="noreferrer" href={linkGithub}>Entrar al código 
