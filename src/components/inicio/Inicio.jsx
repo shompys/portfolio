@@ -2,6 +2,7 @@ import {v4 as genId} from 'uuid';
 //import {useEffect, useState} from 'react';
 import svg from '../../assets/svg';
 import human from '../../assets/images/human.jpg';
+import cv from '../../assets/cv/MolinaJonathan.pdf';
 import './Inicio.css';
 import { useEffect } from 'react';
 
@@ -29,6 +30,7 @@ const Inicio = () => {
             alt: 'github'
         }
     ]
+    
     return(
         <section id="Inicio" className="inicio-section">
             <div  className="inicio-content">
@@ -36,8 +38,8 @@ const Inicio = () => {
                 <p className="inicio-p">Hola, mi nombre es Jonathan.<br/>
                 Soy desarrollador web FullStack<br/>
                  con el conjunto de tecnologías M.E.R.N.</p>
-                
-                
+                 <a className="inicio__cv" href={cv} target="_blank" rel="noreferrer" download="MolinaJonathan">Descargar CV</a>
+                 <img className="inicio-img" src={human} alt="student"/>
                 <div className="inicio-icons">
                     {
                         data.map((v) =>
@@ -46,7 +48,7 @@ const Inicio = () => {
                     }
                 </div>                    
                 
-                <img className="inicio-img" src={human} alt="student"/>
+                
             </div>
         </section>
     )
