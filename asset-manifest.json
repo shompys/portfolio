@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5762520d.chunk.css",
-    "main.js": "/portfolio/static/js/main.68edca25.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.68edca25.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b4847fe9.chunk.css",
+    "main.js": "/portfolio/static/js/main.bd5fe2fe.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bd5fe2fe.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.126d1a46.chunk.js": "/portfolio/static/js/2.126d1a46.chunk.js",
     "static/js/2.126d1a46.chunk.js.map": "/portfolio/static/js/2.126d1a46.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.5762520d.chunk.css.map": "/portfolio/static/css/main.5762520d.chunk.css.map",
+    "static/css/main.b4847fe9.chunk.css.map": "/portfolio/static/css/main.b4847fe9.chunk.css.map",
     "static/js/2.126d1a46.chunk.js.LICENSE.txt": "/portfolio/static/js/2.126d1a46.chunk.js.LICENSE.txt",
+    "static/media/MolinaJonathan.49195a9e.pdf": "/portfolio/static/media/MolinaJonathan.49195a9e.pdf",
     "static/media/about-me.018bbe7e.svg": "/portfolio/static/media/about-me.018bbe7e.svg",
     "static/media/code.fd990bab.svg": "/portfolio/static/media/code.fd990bab.svg",
     "static/media/conocimiento.956454e7.svg": "/portfolio/static/media/conocimiento.956454e7.svg",
@@ -35,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.126d1a46.chunk.js",
-    "static/css/main.5762520d.chunk.css",
-    "static/js/main.68edca25.chunk.js"
+    "static/css/main.b4847fe9.chunk.css",
+    "static/js/main.bd5fe2fe.chunk.js"
   ]
 }
