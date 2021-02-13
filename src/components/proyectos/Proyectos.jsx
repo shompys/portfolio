@@ -36,7 +36,7 @@ const Proyectos = () => {
             alt: 'portada de sitio portfolio',
             info1: 'Mi portfolio personal.',
             info2: '',
-            linkSite: 'https://shompys.github.io/portfolio/',
+            linkSite: 'https://jonathangomezit.com/',
             linkGitHub: 'https://github.com/shompys/portfolio'
 
         }
