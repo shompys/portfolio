@@ -34,12 +34,13 @@ const Inicio = () => {
     return(
         <section id="Inicio" className="inicio-section">
             <div  className="inicio-content">
-                
+                <img className="inicio-img" src={human} alt="student"/>
                 <p className="inicio-p">Hola, mi nombre es Jonathan.<br/>
                 Soy desarrollador web FullStack<br/>
                  con el conjunto de tecnologías M.E.R.N.</p>
+                 
                  <a className="inicio__cv" href={cv} target="_blank" rel="noreferrer" download="Molina-Gomez-Jonathan">Descargar CV</a>
-                 <img className="inicio-img" src={human} alt="student"/>
+                 
                 <div className="inicio-icons">
                     {
                         data.map((v) =>

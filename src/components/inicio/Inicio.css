@@ -2,7 +2,7 @@
 .inicio-section{
 
     width: 90%;
-    padding-top: 4.7em;
+    padding-top: 7em;
     position: relative;
     left: 0;
     right: 0;
@@ -20,7 +20,6 @@
     justify-self: center;
     font-size: 1.4em;
     color: var(--color-gris);
-    
 }
 .inicio__cv{
     justify-self: center;
@@ -34,13 +33,13 @@
     
 }
 .inicio__cv:hover{
-    filter: brightness(1)
+    filter: brightness(.95)
 }
+
 .inicio-icons{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
-    
     
 }
 .i-linkedin > img, .i-github > img{
@@ -72,11 +71,10 @@
 }
 
 .inicio-img{
-    
     border-radius: 50%;
-    width: 250px;
+    width: 170px;
     justify-self: center;
-    
+   
 }
 
 .opacity1{

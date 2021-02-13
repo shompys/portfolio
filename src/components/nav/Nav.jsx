@@ -29,13 +29,6 @@ const Nav = () =>{
             item: 'Conocimientos',
             className: ' nav-options'
         },
-        // {
-        //     id: genId(),
-        //     src: svg.about,
-        //     alt: 'about me',
-        //     item: 'Sobre mí',
-        //     className: ' nav-options'
-        // },
         {
             id: genId(),
             src: svg.contact,
@@ -59,10 +52,10 @@ const Nav = () =>{
     return (
         
         <header>
-            <div className={`toggle ${toggleOpen ? 'close' : ''}`} onClick = {deploy}>
+            <div className={`toggle ${toggleOpen && 'close'}`} onClick = {deploy}>
                 <span></span>
             </div>
-            <nav className={`nav ${navOpen ? 'show' : ''}`}>
+            <nav className={`nav ${navOpen && 'show' }`}>
             {
                 data.map((v) =>
 
