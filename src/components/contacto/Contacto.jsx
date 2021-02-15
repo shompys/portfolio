@@ -95,7 +95,7 @@ const Contacto = () =>{
                 <div className="content-p-contacto">
                     <p className="contacto-p">Si tenes alguna pregunta, consejo de mejora o propuesta, podes mandarme un mail a <span>jonathangomezit@gmail.com</span>.</p>
                     <p className="contacto-p">Claro que también podes enviármelo por este formulario super divertido:</p>
-                    <p className="contacto-p">Los campos obligatorios estan marcados con un (*).</p>
+                    
                 </div>
                 
                 <form className="form-contacto " onSubmit={process}>
@@ -104,7 +104,7 @@ const Contacto = () =>{
                     <input className="input input-tel" type="text" placeholder="Teléfono o Celular" autoComplete="off" name="tel"/>
                     <input className="input input-asunto" type="text" placeholder="Asunto *" name="asunto" autoComplete="off" onChange={e => setAsunto(e.target.value)}/>
                     <textarea className="input textarea" type="textarea" placeholder="Mensaje *" name="msg" onChange={e => setMsg(e.target.value)}/>
-
+                    <p className="contacto-p contacto-ob"> (*) Campos obligatorios.</p>
                     <ReCAPTCHA
                         className="recaptcha"
                         sitekey={REACT_APP_RECAPTCHA_SITE_KEY}
@@ -120,7 +120,7 @@ const Contacto = () =>{
                     }    
                     
                 </form>
-                        
+                 
             </div>
         </section>
     )
