@@ -15,6 +15,7 @@ import react from './svg/react-brands.svg';
 import npm from './svg/npm-brands.svg';
 import git from './svg/git-alt-brands.svg';
 import link from './svg/link-external.svg';
+import dev from './svg/dev.svg';
 
 const svg = {
         home: home,
@@ -33,7 +34,8 @@ const svg = {
         react: react,
         npm: npm,
         git: git,
-        link : link
+        link : link,
+        dev: dev
     }
 
 export default svg;

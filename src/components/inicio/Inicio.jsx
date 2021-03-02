@@ -1,7 +1,7 @@
 import {v4 as genId} from 'uuid';
 //import {useEffect, useState} from 'react';
 import svg from '../../assets/svg';
-import human from '../../assets/images/human.jpg';
+
 import cv from '../../assets/cv/Molina-Gomez-Jonathan.pdf';
 import './Inicio.css';
 import { useEffect } from 'react';
@@ -34,12 +34,13 @@ const Inicio = () => {
     return(
         <section id="Inicio" className="inicio-section">
             <div  className="inicio-content">
-                <img className="inicio-img" src={human} alt="student"/>
+                {/* <img className="inicio-img" src={human} alt="student"/> */}
+                
                 <p className="inicio-p">Hola, mi nombre es Jonathan.<br/>
                 Soy desarrollador web FullStack<br/>
                  con el conjunto de tecnologías M.E.R.N.</p>
-                 
                  <a className="inicio__cv" href={cv} target="_blank" rel="noreferrer" download="Molina-Gomez-Jonathan">Descargar CV</a>
+                 
                  
                 <div className="inicio-icons">
                     {
@@ -48,7 +49,7 @@ const Inicio = () => {
                         )
                     }
                 </div>                    
-                
+                <img className="inicio-img" src={svg.dev} alt="developer"/>
                 
             </div>
         </section>
