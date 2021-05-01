@@ -25,7 +25,7 @@ const Proyectos = () => {
             img: starfleet,
             alt: 'portada de sitio starfleet',
             info1: 'Sitio web para la administración y gestión de los datos de empresas dedicadas al transporte y a la logística.',
-            info2:'Proyecto institucional, se utilizaron las siguientes tecnologías: HTML5, CSS3, BOOSTRAP, JQUERY, PHP, MYSQL. (SSL CADUCADO)',
+            info2:'Proyecto institucional, se utilizaron las siguientes tecnologías: HTML5, CSS3, BOOSTRAP, JQUERY, PHP, MYSQL.',
             linkSite: 'https://starfleet.company/profliendro/',
             linkGitHub: 'https://github.com/shompys/starfleet',
         },
